@@ -1,0 +1,29 @@
+<h3>Temperature Calculator</h3>
+
+<form [formGroup]="temperatureForm" class="pure-form pure-form-stacked">
+  <fieldset>
+    <div class="pure-g">
+      <div class="pure-u-1 pure-u-md-1-3">
+        <label for="celsius">Degrees Celsius (°C)</label>
+        <input id="celsius" formControlName="celsius" type="number" class="pure-u-23-24">
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3">
+        <label for="fahrenheit">Degrees Fahrenheit (°F)</label>
+        <input id="fahrenheit" formControlName="fahrenheit" type="number" class="pure-u-23-24">
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3">
+        <label for="kelvin">Kelvin (K)</label>
+        <input id="kelvin" formControlName="kelvin" type="number" class="pure-u-23-24">
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<div *ngIf="isLoading" class="lds-dual-ring"></div>
+<div *ngIf="errorMessage" class="error">{{errorMessage}}</div>
+
+<div hidden>
+  <div>Celsius: {{temperature.celsius}}</div>
+  <div>Fahrenheit: {{temperature.fahrenheit}}</div>
+  <div>Kelvin: {{temperature.kelvin}}</div>
+</div>

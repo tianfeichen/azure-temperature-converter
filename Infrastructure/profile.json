@@ -1,0 +1,294 @@
+﻿{
+  "DefaultContextKey": "Free Trial (4dfd2797-0949-4461-b5fb-e4c54747a63f) - tianfei.chen@readify.net",
+  "EnvironmentTable": {},
+  "Contexts": {
+    "Free Trial (4dfd2797-0949-4461-b5fb-e4c54747a63f) - tianfei.chen@readify.net": {
+      "Account": {
+        "Id": "tianfei.chen@readify.net",
+        "Credential": null,
+        "Type": "User",
+        "TenantMap": {},
+        "ExtendedProperties": {
+          "Subscriptions": "4dfd2797-0949-4461-b5fb-e4c54747a63f,947934a3-6c74-49db-954d-e6d087bd171b,5a3d017a-476e-42a6-8222-1fb334954862,88b9aedc-5032-45b3-96ab-85ef5df3ab1a",
+          "Tenants": "413504eb-8622-47d2-aa72-ddbba4584471"
+        }
+      },
+      "Tenant": {
+        "Id": "413504eb-8622-47d2-aa72-ddbba4584471",
+        "Directory": "readify.net",
+        "ExtendedProperties": {}
+      },
+      "Subscription": {
+        "Id": "4dfd2797-0949-4461-b5fb-e4c54747a63f",
+        "Name": "Free Trial",
+        "State": "Enabled",
+        "ExtendedProperties": {
+          "Account": "tianfei.chen@readify.net",
+          "Tenants": "413504eb-8622-47d2-aa72-ddbba4584471",
+          "Environment": "AzureCloud"
+        }
+      },
+      "Environment": {
+        "Name": "AzureCloud",
+        "OnPremise": false,
+        "ServiceManagementUrl": "https://management.core.windows.net/",
+        "ResourceManagerUrl": "https://management.azure.com/",
+        "ManagementPortalUrl": "https://go.microsoft.com/fwlink/?LinkId=254433",
+        "PublishSettingsFileUrl": "https://go.microsoft.com/fwlink/?LinkID=301775",
+        "ActiveDirectoryAuthority": "https://login.microsoftonline.com/",
+        "GalleryUrl": "https://gallery.azure.com/",
+        "GraphUrl": "https://graph.windows.net/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/",
+        "DataLakeEndpointResourceId": "https://datalake.azure.net/",
+        "BatchEndpointResourceId": "https://batch.core.windows.net/",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net",
+        "AdTenant": "Common",
+        "VersionProfiles": [],
+        "ExtendedProperties": {
+          "OperationalInsightsEndpoint": "https://api.loganalytics.io/v1",
+          "OperationalInsightsEndpointResourceId": "https://api.loganalytics.io",
+          "AzureAnalysisServicesEndpointSuffix": "asazure.windows.net",
+          "AnalysisServicesEndpointResourceId": "https://region.asazure.windows.net"
+        }
+      },
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAEAAACZAWh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbS80MTM1MDRlYi04NjIyLTQ3ZDItYWE3Mi1kZGJiYTQ1ODQ0NzEvOjo6aHR0cHM6Ly9tYW5hZ2VtZW50LmNvcmUud2luZG93cy5uZXQvOjo6MTk1MGEyNTgtMjI3Yi00ZTMxLWE5Y2YtNzE3NDk1OTQ1ZmMyOjo6MPcoeyJBY2Nlc3NUb2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSlNVekkxTmlJc0luZzFkQ0k2SW01UGJ6TmFSSEpQUkZoRlN6RnFTMWRvV0hOc1NGSmZTMWhGWnlJc0ltdHBaQ0k2SW01UGJ6TmFSSEpQUkZoRlN6RnFTMWRvV0hOc1NGSmZTMWhGWnlKOS5leUpoZFdRaU9pSm9kSFJ3Y3pvdkwyMWhibUZuWlcxbGJuUXVZMjl5WlM1M2FXNWtiM2R6TG01bGRDOGlMQ0pwYzNNaU9pSm9kSFJ3Y3pvdkwzTjBjeTUzYVc1a2IzZHpMbTVsZEM4ME1UTTFNRFJsWWkwNE5qSXlMVFEzWkRJdFlXRTNNaTFrWkdKaVlUUTFPRFEwTnpFdklpd2lhV0YwSWpveE5qSTRNVEl6TWpJeExDSnVZbVlpT2pFMk1qZ3hNak15TWpFc0ltVjRjQ0k2TVRZeU9ERXlOekV5TVN3aVlXTnlJam9pTVNJc0ltRnBieUk2SWtGVlVVRjFMemhVUVVGQlFXUjNiRTlNUjA1TGVWWnVXRk4wY1RGTk5WUm5PVFE1WVM5VGRYVjZha2RrV0ZodE9VWTNhelZuWkM5dGJsZFlXbmhIUVVKNVprOUlXVmN5UzB4T2JIcERjMUJKVDFGYU0wWldTRVpuUlVJNFJUVk9PVzEzUFQwaUxDSmhiWElpT2xzaWNIZGtJaXdpYldaaElsMHNJbUZ3Y0dsa0lqb2lNVGsxTUdFeU5UZ3RNakkzWWkwMFpUTXhMV0U1WTJZdE56RTNORGsxT1RRMVptTXlJaXdpWVhCd2FXUmhZM0lpT2lJd0lpd2labUZ0YVd4NVgyNWhiV1VpT2lKRGFHVnVJaXdpWjJsMlpXNWZibUZ0WlNJNklsUnBZVzVtWldraUxDSm5jbTkxY0hNaU9sc2lOV1EwTTJVMk16Z3RNekUwT0MwMFkyTXpMVGt5T0RrdE9UTTJOakU0WXpjME56QmhJaXdpTXpNMU1XTTNaRGd0T1dZeFlpMDBPRFkzTFdFNE56TXRZMk5oT0RjeU1UVXpORGxqSWl3aVpUWm1NREExTkRZdE4yWTBPUzAwWXpaaUxUaGxNVGN0TWpObE1qbGtZak13WlRZM0lpd2lNamRrWWpRelpHSXRaREE1WXkwME9URXlMVGxqT0RNdE1qY3lZVEUxWTJReE5HWTFJaXdpTkdJeU9HSXpZalV0TVdObU15MDBZek14TFRoak5XVXRaalUxTlRJeE5XSTVPVFUwSWl3aVpqWmhORFJoTWpBdE56VmxaaTAwWTJaakxUZzBNV0l0WWpSaE1ESmlaVE5oWldJM0lpd2lNRFEzWlRVd05XRXROR1V3TlMwMFl6STNMVGt6T0dVdFpXUmtZVEExWkRRMk1qTmtJaXdpTWpKa016TmlOMlV0TnpVNE5pMDBaRFJsTFdFNU1UZ3RaV1ZpTldSaE1EVXlaVE0zSWl3aU5qQTRaREUzWkdZdE56WXdZeTAwTURReExXRXpOV1V0TURZMU9XSTJZemt6T0RFNUlpd2lZMlV5T0RWaE9HVXROMlptWlMwMFpXRXlMV0l6WmpJdE1UUTFOelEyWVdGa01qWm1JaXdpWkRWaE9EZGlPVGd0WkRJeU55MDBObUl4TFRobVptRXRPRGc1WmpVeU9HTm1ORE5oSWl3aU9ETmxNakkzWmpRdE4yRmpOaTAwTkdZd0xXRXlPRGN0WmpWaE5USm1aVEUzT0dGaElpd2lPR015TXpFeU5HVXRNelEzWXkwMFpUVXpMV0ptWkdZdE9HRTJZakprWWpJd056ZzJJaXdpTVdSbE1UTTFPVFF0TVdObU1pMDBOemd6TFRneE9UZ3RNRGN3TXpBeVlqRTVaRFk0SWl3aU5HRmxOVEE0TURndE1UazNaaTAwTmpNd0xUa3dORGN0TTJZNE5qRTNNakpqWkdNNElpd2lOV1ZpWVdKaVkyRXRZamhqWXkwME5HTmhMVGxrTXpVdE1ESmpNbVppWVRjeE5HSTRJaXdpT0dObE5qUmxObUV0TkRkak5DMDBNVE16TFdJMVkyVXRZbVkyTjJaa05EVmpZall5SWl3aU5HSTFOVFk1WmpRdFpqRmlaaTAwWTJOaExUZ3dOREl0TTJZMk16STRPRGxqTVRZMElsMHNJbWx3WVdSa2NpSTZJakV1TVRJeExqRTNOQzQzTUNJc0ltNWhiV1VpT2lKVWFXRnVabVZwSUVOb1pXNGlMQ0p2YVdRaU9pSmtOVEZpTURsak5TMDRORGN3TFRRMk9HRXRPRE16TWkxaU5UYzVNekZoWTJFNU1UZ2lMQ0p3ZFdsa0lqb2lNVEF3TXpJd01EQTFNREZGTlVJME1pSXNJbkpvSWpvaU1DNUJVMWxCTm5kUk1WRlRTMGN3YTJWeFkzUXlOM0JHYUVWalZtbHBWVUpzTjBscVJrOXhZemw0WkVwWFZWZzRTVzFCVUdNdUlpd2ljMk53SWpvaWRYTmxjbDlwYlhCbGNuTnZibUYwYVc5dUlpd2ljM1ZpSWpvaWJqSlNOSEZxVFVsUWFWQmliak5tUzJKbU1IcEZlakpIV21OeGQxVnZUbEZIUzBZdFJraEhRVkpoYnlJc0luUnBaQ0k2SWpReE16VXdOR1ZpTFRnMk1qSXRORGRrTWkxaFlUY3lMV1JrWW1KaE5EVTRORFEzTVNJc0luVnVhWEYxWlY5dVlXMWxJam9pZEdsaGJtWmxhUzVqYUdWdVFISmxZV1JwWm5rdWJtVjBJaXdpZFhCdUlqb2lkR2xoYm1abGFTNWphR1Z1UUhKbFlXUnBabmt1Ym1WMElpd2lkWFJwSWpvaVNqWlNkalJFVWtGNWExZHRlamw0U1hwbFNGSkJRU0lzSW5abGNpSTZJakV1TUNJc0luZHBaSE1pT2xzaVlqYzVabUptTkdRdE0yVm1PUzAwTmpnNUxUZ3hORE10TnpaaU1UazBaVGcxTlRBNUlsMHNJbmh0YzE5MFkyUjBJam94TXpJd01URTNNVEEyZlEuRTI0S2VkeGJ2UVFXYlpGQTExVU1lYndhbHgyZUNvYzR5Q0VDUGZONk1mMHJxN09rejBjZmdwT2dxZUNQU0tNYW5PV0ZUWHpIVXNwNFc2dDNfSzFzdG5ncDM3RjBsMVV6SEc2eklwWHRUUXVDMTA0QmNhRDB5Z3h0TlJKZENBaS1vS1QwcWlVVUV3UTNJb211ZEdKNzE0RzFveUlBWHZsTDZmY1h3V0FoaHpFaXJlakZOYngwT3B3YjBFRGtBTzhGUjRUWWY5a0xMUVlpXzlZRlQzODhqZEJpVWpqNUg5a3hCMVc0NVFCMk44cENScjRPaUhkRzZVdGg4ZGt1TWZCa2JkVFM5MG11TjRrcS1WbWlncGZleGZreXVFc3hlZlF3M282Ym5rTWpzazhlcjhZSXpDTUQtNXpYbU9QX3NIMm9tQ3kwZm1uQnJnY1NKRDl5ck8wS3NRIiwiQWNjZXNzVG9rZW5UeXBlIjoiQmVhcmVyIiwiRXhwaXJlc09uIjp7IkRhdGVUaW1lIjoiXC9EYXRlKDE2MjgxMjcxMjE2MjUpXC8iLCJPZmZzZXRNaW51dGVzIjowfSwiSWRUb2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSnViMjVsSW4wLmV5SmhkV1FpT2lJeE9UVXdZVEkxT0MweU1qZGlMVFJsTXpFdFlUbGpaaTAzTVRjME9UVTVORFZtWXpJaUxDSnBjM01pT2lKb2RIUndjem92TDNOMGN5NTNhVzVrYjNkekxtNWxkQzgwTVRNMU1EUmxZaTA0TmpJeUxUUTNaREl0WVdFM01pMWtaR0ppWVRRMU9EUTBOekV2SWl3aWFXRjBJam94TmpJNE1USXpNakl4TENKdVltWWlPakUyTWpneE1qTXlNakVzSW1WNGNDSTZNVFl5T0RFeU56RXlNU3dpWVcxeUlqcGJJbkIzWkNJc0ltMW1ZU0pkTENKbVlXMXBiSGxmYm1GdFpTSTZJa05vWlc0aUxDSm5hWFpsYmw5dVlXMWxJam9pVkdsaGJtWmxhU0lzSW1sd1lXUmtjaUk2SWpFdU1USXhMakUzTkM0M01DSXNJbTVoYldVaU9pSlVhV0Z1Wm1WcElFTm9aVzRpTENKdmFXUWlPaUprTlRGaU1EbGpOUzA0TkRjd0xUUTJPR0V0T0RNek1pMWlOVGM1TXpGaFkyRTVNVGdpTENKeWFDSTZJakF1UVZOWlFUWjNVVEZSVTB0SE1HdGxjV04wTWpkd1JtaEZZMVpwYVZWQ2JEZEpha1pQY1dNNWVHUktWMVZZT0VsdFFWQmpMaUlzSW5OMVlpSTZJazB0ZFMxWVVsOWpSbGhITWpZM2NVbzBWV1p6UlZCb09VczVRMHBaUm5ObFVsRlNTRlZDY1VWdlkxVWlMQ0owYVdRaU9pSTBNVE0xTURSbFlpMDROakl5TFRRM1pESXRZV0UzTWkxa1pHSmlZVFExT0RRME56RWlMQ0oxYm1seGRXVmZibUZ0WlNJNkluUnBZVzVtWldrdVkyaGxia0J5WldGa2FXWjVMbTVsZENJc0luVndiaUk2SW5ScFlXNW1aV2t1WTJobGJrQnlaV0ZrYVdaNUxtNWxkQ0lzSW5abGNpSTZJakV1TUNKOS4iLCJJc011bHRpcGxlUmVzb3VyY2VSZWZyZXNoVG9rZW4iOnRydWUsIlJlZnJlc2hUb2tlbiI6IjAuQVNZQTZ3UTFRU0tHMGtlcWN0MjdwRmhFY1ZpaVVCbDdJakZPcWM5eGRKV1VYOEltQVBjLkFnQUJBQUFBQUFELS1ETEEzVk83UXJkZGdKZzdXZXZyQWdEc193UUE5UC0yVXBpMzdxR2RnTGxMZnBzSEJPb1I4dk90QnZaOHFfb3cwTjJpc0pLeWR1aVZ6WVRsVW1tZ2VwQnA3Mi1oTlVYRWJwYlRDbEg5M0NMWXJTN281TXlSSFc3NnJKclpKXzlhd3A5MWwwZlctenZNNXhPYXZHQ2x0c0U4Vl9sNlNhdC1XVlVlRHkwNFIyeVNoTERjRFBlU2pDTFR0X244bmJpZi1Tb1F0b01uSHpNOFo1QmQ0V01yTDVBa3J3SkpCVDNFem5WZ0xVQnRWZTNOWkZ3N3FReF9ZcVhDdTctTmVPeVExNE5KRmg2a2FMQXE3SDY5TmRTUjRDZUI5MHlHTDVrMnFGVHhzRUlONVhhcnl2MjNPS3BFZUQ4Tmd1MDl3cTlMZklBSy1MUlhuLVk3YUV0LWpqSms3dG92VWx4SmpLSkFacWlvZmRHalRfXzRTcU5qd3NoM3p6cV80UUpNVmdYU3hEd2VRT0tNOEZ4V3JNSkktTER6YkFESVU3U2l5UFp6Q2NlUGZZNS1vb1NiVkVYV2lWd3lKZVpvNWNoemFYbHV2QkhmOS1meExjU0l1M1lPRnJxYW1vUXpSMHA5ZjZYWnVZbjE3clc2dG16b2VhRkNpX2dRM19SNWhpM21Xckp0ZzdGX21NOWo1ZHVzeEluUzdxRm1lZUxqbDJtRGRHOXNzREVVT28yT3ZzWGc4UjhRSHFUcUhTM1NsX2E1VG56N2ZnQTJuOHg0cE9OcGpBSVg1S29yeDNHVmdKcDl2NmVDdnR4bkF2dkEwUUVsYkIteVZSOWZDbmUteVViZUlrQnN2NVkzdURNTXEtc2VqVENVRFgyOW01ek45aEgtWjJFTjRaZWZLeUdJX1dLV0R0bTREajBXXzMtY21MSEJta1AtU05QMnlBV1ZHbW95aG5JV2FSYTlMZFVGLUxERk03RmliMjF1MW9hOHhLSGl1V2NGclhqSjVUdUhZQ0JTVW9yZTNJQ1VfOGVQZk9TTGNzaXh3TmUtMjM1MGNZbE1PaW5DcjFCMzctaGVrUS1vQ01TX0k3Ri1LVWhYc0JmVTlRY0p5TW1leGlLd3d6UmlocVlXZklTbWtqNm9iSXMxVUx4blZZaFdETDZ2Vmk0X1FRcUpiYjRFMXJySGdsZFc4elhSZDlUaU9KOVNONHA4T1pwRWZvRF9qNzRJRDFObzlfY2RUY3VfVkRSREtXRTd1dlhQUGhia2tfNWg4NVhWeURpU0R5bktNX0U3NGE0bnVHTzZ1czRCbVg0TG5QT0tsaXhLS0RLdnBvOEVOSkxCbVctMDN3ZGZXZHl3LVE1b3RtZXRvRXZFcm90SE1QeGhRQ09PZUpYSTFtZTNmS1pVemsxbTk3aUF2YldNa0p0eDJFOFVoZzl1ckRqdDdmZWp1MTRpTG9HQ3ZsU2syMWFEMDdzaVRrbHBKOTF4bFJkMXBNVHlrTkpLQy1oYXVncGVaZVF0MkMzTTBFX0Z1Y1BDTjd4M3NFNS1UbTJoMUlxVTFKc3BxOWNBZXhMMWllbU5Ub0hyQUp6cF9sQ0hmSjJNRUNvQUhkR2hfVG8iLCJUZW5hbnRJZCI6IjQxMzUwNGViLTg2MjItNDdkMi1hYTcyLWRkYmJhNDU4NDQ3MSIsIlVzZXJBc3NlcnRpb25IYXNoIjpudWxsLCJVc2VySW5mbyI6eyJEaXNwbGF5YWJsZUlkIjoidGlhbmZlaS5jaGVuQHJlYWRpZnkubmV0IiwiRmFtaWx5TmFtZSI6IkNoZW4iLCJHaXZlbk5hbWUiOiJUaWFuZmVpIiwiSWRlbnRpdHlQcm92aWRlciI6Imh0dHBzOlwvXC9zdHMud2luZG93cy5uZXRcLzQxMzUwNGViLTg2MjItNDdkMi1hYTcyLWRkYmJhNDU4NDQ3MVwvIiwiUGFzc3dvcmRDaGFuZ2VVcmwiOm51bGwsIlBhc3N3b3JkRXhwaXJlc09uIjpudWxsLCJVbmlxdWVJZCI6ImQ1MWIwOWM1LTg0NzAtNDY4YS04MzMyLWI1NzkzMWFjYTkxOCJ9fQ=="
+      },
+      "ExtendedProperties": {}
+    },
+    "EDU-ICTServices-PD01 (249aad55-f65f-481a-93dd-e604222bc39b) - Tianfei.Chen738@schools.sa.edu.au": {
+      "Account": {
+        "Id": "Tianfei.Chen738@schools.sa.edu.au",
+        "Credential": null,
+        "Type": "User",
+        "TenantMap": {},
+        "ExtendedProperties": {
+          "Subscriptions": "249aad55-f65f-481a-93dd-e604222bc39b,73bbf4e9-0688-4946-aea9-bd0bb40ecf07",
+          "Tenants": "73bbf4e9-0688-4946-aea9-bd0bb40ecf07"
+        }
+      },
+      "Tenant": {
+        "Id": "73bbf4e9-0688-4946-aea9-bd0bb40ecf07",
+        "Directory": "schools.sa.edu.au",
+        "ExtendedProperties": {}
+      },
+      "Subscription": {
+        "Id": "249aad55-f65f-481a-93dd-e604222bc39b",
+        "Name": "EDU-ICTServices-PD01",
+        "State": "Enabled",
+        "ExtendedProperties": {
+          "Account": "Tianfei.Chen738@schools.sa.edu.au",
+          "Tenants": "73bbf4e9-0688-4946-aea9-bd0bb40ecf07",
+          "Environment": "AzureCloud"
+        }
+      },
+      "Environment": {
+        "Name": "AzureCloud",
+        "OnPremise": false,
+        "ServiceManagementUrl": "https://management.core.windows.net/",
+        "ResourceManagerUrl": "https://management.azure.com/",
+        "ManagementPortalUrl": "http://go.microsoft.com/fwlink/?LinkId=254433",
+        "PublishSettingsFileUrl": "http://go.microsoft.com/fwlink/?LinkID=301775",
+        "ActiveDirectoryAuthority": "https://login.microsoftonline.com/",
+        "GalleryUrl": "https://gallery.azure.com/",
+        "GraphUrl": "https://graph.windows.net/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/",
+        "DataLakeEndpointResourceId": "https://datalake.azure.net",
+        "BatchEndpointResourceId": "https://batch.core.windows.net/",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net/",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net/",
+        "AdTenant": "Common",
+        "VersionProfiles": [],
+        "ExtendedProperties": {
+          "OperationalInsightsEndpoint": "https://api.loganalytics.io/v1",
+          "OperationalInsightsEndpointResourceId": "https://api.loganalytics.io",
+          "AzureAnalysisServicesEndpointSuffix": "asazure.windows.net"
+        }
+      },
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAAAAAA="
+      },
+      "ExtendedProperties": {}
+    },
+    "9fc415d0-ecde-4471-8f2e-b6b89281ed72 - tianfei.chen@readify.net": {
+      "Account": {
+        "Id": "tianfei.chen@readify.net",
+        "Credential": null,
+        "Type": "User",
+        "TenantMap": {},
+        "ExtendedProperties": {
+          "Tenants": "9fc415d0-ecde-4471-8f2e-b6b89281ed72"
+        }
+      },
+      "Tenant": {
+        "Id": "9fc415d0-ecde-4471-8f2e-b6b89281ed72",
+        "Directory": "readify.net",
+        "ExtendedProperties": {}
+      },
+      "Subscription": null,
+      "Environment": {
+        "Name": "AzureCloud",
+        "OnPremise": false,
+        "ServiceManagementUrl": "https://management.core.windows.net/",
+        "ResourceManagerUrl": "https://management.azure.com/",
+        "ManagementPortalUrl": "http://go.microsoft.com/fwlink/?LinkId=254433",
+        "PublishSettingsFileUrl": "http://go.microsoft.com/fwlink/?LinkID=301775",
+        "ActiveDirectoryAuthority": "https://login.microsoftonline.com/",
+        "GalleryUrl": "https://gallery.azure.com/",
+        "GraphUrl": "https://graph.windows.net/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/",
+        "DataLakeEndpointResourceId": "https://datalake.azure.net",
+        "BatchEndpointResourceId": "https://batch.core.windows.net/",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net/",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net/",
+        "AdTenant": "Common",
+        "VersionProfiles": [],
+        "ExtendedProperties": {
+          "OperationalInsightsEndpoint": "https://api.loganalytics.io/v1",
+          "OperationalInsightsEndpointResourceId": "https://api.loganalytics.io",
+          "AzureAnalysisServicesEndpointSuffix": "asazure.windows.net"
+        }
+      },
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAAAAAA="
+      },
+      "ExtendedProperties": {}
+    },
+    "Default": {
+      "Account": null,
+      "Tenant": null,
+      "Subscription": null,
+      "Environment": null,
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAAAAAA="
+      },
+      "ExtendedProperties": {}
+    },
+    "413504eb-8622-47d2-aa72-ddbba4584471 - Tianfei.Chen738@schools.sa.edu.au": {
+      "Account": {
+        "Id": "Tianfei.Chen738@schools.sa.edu.au",
+        "Credential": null,
+        "Type": "User",
+        "TenantMap": {},
+        "ExtendedProperties": {
+          "Tenants": "413504eb-8622-47d2-aa72-ddbba4584471"
+        }
+      },
+      "Tenant": {
+        "Id": "413504eb-8622-47d2-aa72-ddbba4584471",
+        "Directory": "schools.sa.edu.au",
+        "ExtendedProperties": {}
+      },
+      "Subscription": null,
+      "Environment": {
+        "Name": "AzureCloud",
+        "OnPremise": false,
+        "ServiceManagementUrl": "https://management.core.windows.net/",
+        "ResourceManagerUrl": "https://management.azure.com/",
+        "ManagementPortalUrl": "http://go.microsoft.com/fwlink/?LinkId=254433",
+        "PublishSettingsFileUrl": "http://go.microsoft.com/fwlink/?LinkID=301775",
+        "ActiveDirectoryAuthority": "https://login.microsoftonline.com/",
+        "GalleryUrl": "https://gallery.azure.com/",
+        "GraphUrl": "https://graph.windows.net/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/",
+        "DataLakeEndpointResourceId": "https://datalake.azure.net",
+        "BatchEndpointResourceId": "https://batch.core.windows.net/",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net/",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net/",
+        "AdTenant": "Common",
+        "VersionProfiles": [],
+        "ExtendedProperties": {
+          "OperationalInsightsEndpoint": "https://api.loganalytics.io/v1",
+          "OperationalInsightsEndpointResourceId": "https://api.loganalytics.io",
+          "AzureAnalysisServicesEndpointSuffix": "asazure.windows.net"
+        }
+      },
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAAAAAA="
+      },
+      "ExtendedProperties": {}
+    },
+    "a9a9d9eb-7d4a-4715-b7db-49a5e71c3706 - tianfei.chen@readify.net": {
+      "Account": {
+        "Id": "tianfei.chen@readify.net",
+        "Credential": null,
+        "Type": "User",
+        "TenantMap": {},
+        "ExtendedProperties": {
+          "Tenants": "a9a9d9eb-7d4a-4715-b7db-49a5e71c3706"
+        }
+      },
+      "Tenant": {
+        "Id": "a9a9d9eb-7d4a-4715-b7db-49a5e71c3706",
+        "Directory": "readify.net",
+        "ExtendedProperties": {}
+      },
+      "Subscription": null,
+      "Environment": {
+        "Name": "AzureCloud",
+        "OnPremise": false,
+        "ServiceManagementUrl": "https://management.core.windows.net/",
+        "ResourceManagerUrl": "https://management.azure.com/",
+        "ManagementPortalUrl": "http://go.microsoft.com/fwlink/?LinkId=254433",
+        "PublishSettingsFileUrl": "http://go.microsoft.com/fwlink/?LinkID=301775",
+        "ActiveDirectoryAuthority": "https://login.microsoftonline.com/",
+        "GalleryUrl": "https://gallery.azure.com/",
+        "GraphUrl": "https://graph.windows.net/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/",
+        "DataLakeEndpointResourceId": "https://datalake.azure.net",
+        "BatchEndpointResourceId": "https://batch.core.windows.net/",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net/",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net/",
+        "AdTenant": "Common",
+        "VersionProfiles": [],
+        "ExtendedProperties": {
+          "OperationalInsightsEndpoint": "https://api.loganalytics.io/v1",
+          "OperationalInsightsEndpointResourceId": "https://api.loganalytics.io",
+          "AzureAnalysisServicesEndpointSuffix": "asazure.windows.net"
+        }
+      },
+      "VersionProfile": null,
+      "TokenCache": {
+        "CacheData": "AgAAAAAAAAA="
+      },
+      "ExtendedProperties": {}
+    }
+  },
+  "ExtendedProperties": {}
+}

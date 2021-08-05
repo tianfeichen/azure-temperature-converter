@@ -1,0 +1,126 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServicePlanName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "appServiceSkuName": {
+      "type": "string",
+      "defaultValue": "F1",
+      "allowedValues": [
+        "F1",
+        "D1",
+        "B1",
+        "S1",
+        "P1"
+      ]
+    },
+    "webAppName": {
+      "type": "string"
+    },
+    "storageName": {
+      "type": "string"
+    },
+    "storageType": {
+      "type": "string",
+      "allowedValues": [
+        "Standard_LRS",
+        "Standard_ZRS",
+        "Standard_GRS",
+        "Standard_RAGRS"
+      ]
+    }
+  },
+  "functions": [],
+  "resources": [
+    {
+      "name": "[parameters('appServicePlanName')]",
+      "type": "Microsoft.Web/serverfarms",
+      "location": "[resourceGroup().location]",
+      "apiVersion": "2015-08-01",
+      "sku": {
+        "name": "[parameters('appServiceSkuName')]"
+      },
+      "dependsOn": [ ],
+      "properties": {
+        "name": "[parameters('appServicePlanName')]",
+        "numberOfWorkers": 1
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "name": "[parameters('storageName')]",
+      "apiVersion": "2019-06-01",
+      "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "[parameters('storageType')]",
+        "tier": "Standard"
+      },
+      "kind": "StorageV2"
+    },
+    {
+      "type": "Microsoft.Web/sites",
+      "name": "[parameters('webAppName')]",
+      "apiVersion": "2018-11-01",
+      "location": "[resourceGroup().location]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Web/serverfarms', parameters('appServicePlanName'))]"
+      ],
+      "properties": {
+        "name": "[parameters('webAppName')]",
+        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('appServicePlanName'))]",
+        "clientAffinityEnabled": false,
+        "httpsOnly": false,
+        "siteConfig": {
+          "cors": {
+            "allowedOrigins": [
+              "*"
+            ]
+          }
+        }
+      },
+      "identity": {
+        "type": "SystemAssigned"
+      },
+      "resources": [
+        {
+          "apiVersion": "2018-11-01",
+          "name": "web",
+          "type": "config",
+          "dependsOn": [
+            "[parameters('webAppName')]"
+          ],
+          "properties": {
+            "netFrameworkVersion": "v4.0",
+            "use32BitWorkerProcess": true,
+            "webSocketsEnabled": true,
+            "alwaysOn": false,
+            "connectionStrings": [],
+            "requestTracingEnabled": false,
+            "httpLoggingEnabled": true,
+            "logsDirectorySizeLimit": 100,
+            "detailedErrorLoggingEnabled": false,
+            "azureApplicationLogsFileSystemEnabled": true
+          }
+        },
+        {
+          "apiVersion": "2018-11-01",
+          "name": "logs",
+          "type": "config",
+          "dependsOn": [
+            "[parameters('webAppName')]"
+          ],
+          "properties": {
+            "applicationLogs": {
+              "fileSystem": {
+                "level": "Information"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
